@@ -1,0 +1,60 @@
+----------------------- HOJA DE EJERCICIOS 1 -----------------------
+
+1) REAS, tipo de agente y formalismo
+2) REAS, tipo de agente y formalismo
+3) Formalizar el agente como un problema de búsqueda
+4) Heurística
+5) Formalizar el agente como un problema de búsqueda
+6) Heurística
+7) Algoritmo genético
+8) Algoritmo genético
+9) A*
+10) voraz vs A*
+
+----------------------- HOJA DE EJERCICIOS 2 -----------------------
+
+1) Dataset. Mejorar perceptrón, el modelo que elegirías y escalado de datos
+2) cross validation
+3) ML con imágenes
+4) KNN, medición
+5) Cálculo ganancia y entropía
+6) Imágenes
+7) Problema no linealmente separable
+8) Red neuronal y probabilidades
+9) Clustering, K-Means
+10) Clustering
+11) NPC que tiene que aprender 
+12) Espacio de Q-Learning demasiado grande
+
+
+----------------------- EJERCICIO DE GENÉTICOS -----------------------
+
+----------------------- EXAMEN MAYO 2025 -----------------------
+
+
+1) Tipo de agente (robots de amazon)
+2) Modelar agente (coloca libros)
+3) Heuristica tipo test
+4) Modelo de ML con ruido
+5) Modelo y procesado de datos(videos)
+
+Problema
+a) Tipos de agente Easy y Hard
+b) REAS
+c) Modela Hard
+d) Tipo de agente si fuese agente vs jugador
+
+
+----------------------- EXAMEN JUNIO 2025 -----------------------
+
+1) Tipos de agente (guerra y recursos)
+2) Modelar agente
+3) Heuristica 
+4) Tipo de ML
+5) Modelar agente, describir, imágenes, clustering
+
+Problema
+a) Tipos de agente Easy y Hard
+b) REAS
+c) Modela Hard
+d) modificación de c)

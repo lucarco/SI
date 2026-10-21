@@ -1,0 +1,13 @@
+Con función de activación softmax:
+	- Cuándo elegirlo: Cuando quiero que la salida sean probabilidades. Se puede combinar con otras. Todas las salidas de normal son enteros.
+
+Perceptrón Multicapa (MLP):
+	- Cuándo elegirlo: Para datos tabulares clásicos (bases de datos, Excel, sensores, clasificar clientes) y problemas no linealmente separables (usando 	activación ReLU). Es el comodín todoterreno.  
+
+Redes Neuronales Convolucionales (CNN):
+	- Cuándo elegirlas: Siempre que el problema involucre IMÁGENES o visión artificial (ej. detectar un tumor en una radiografía).  
+	- Por qué: Porque están especializadas en detectar características visuales concretas dentro de una imagen (como bordes o texturas), aunque solo 	detectan una característica concreta por capa.  
+
+Autoencoders:
+	- Cuándo elegirlos: Cuando tienes información extremadamente pesada (como imágenes gigantes) y necesitas resumirla o extraer sus características 	principales antes de dársela a otro algoritmo.  
+	- Inconveniente: Necesitan un volumen de datos gigantesco para entrenar correctamente.  

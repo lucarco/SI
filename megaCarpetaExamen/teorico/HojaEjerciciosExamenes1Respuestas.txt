@@ -1,0 +1,70 @@
+------------------------------ PROBLEMA 02 ------------------------------
+
+REAS
+	
+Rendimiento:
+	- evitar colisiones, no caer en desniveles, seguir en movimiento
+	  y eficiencia de navegación(tiempo para salir de bloqueos)
+
+Entorno:
+	- Parcialmente observable: solo ve hacia adelante
+	- Estocástico: gira aleatoriamente
+	- Secuencial: no habría pasado lo mismo que si se hubiese girado a la izq en vez de la der
+	- Dinámico: el entorno se puede volver "oscuro" y se encienden los faros
+	- Continuo: Se mide en cm pero no se dice de lindes
+	- Individual: un solo coche
+	- N/A (No competitivo ni colaborativo):
+
+Actuadores:
+	- motores para avanzar, dar marcha atrás, dar giros(izq/der) y encender focos(blanco y rojo)
+
+Sensores:
+	- choque, distancia, desnivel, luz
+
+
+TIPO DE AGENTE:
+
+Agente Reactivo basado en Modelo
+Son respuestas directas basadas en estímulos
+Su memoria la constituye el estado por el que vaya(si ha dado una vuelta entera entonces...)
+
+MODELADO DE AGENTE
+
+Hacer una máquina de estados finitos.
+
+
+------------------------------ PROBLEMA 05 ------------------------------
+
+Tiene 6 caras con 4 probabilidades cada una, son un total de 24 posiciones a controlar.
+Se puede definir como un array de 24 posiciones
+Y para cada posición se puede guarda el color.
+Como estado inicial:
+	el vector está totalmente desordenado.
+Como estado final:
+	debería de ser : v[0]=v[1]=v[2]=v[3]; v[4]=v[5]=v[6]=v[7];
+	Y así todo el array de 4 en 4 , representando los colores.
+Acciones:
+	Se puede girar una de las caras 90º, tanto para la derecha como para la izquierda
+	En total son 6x2 acciones posibles totales. 12.
+
+
+------------------------------ PROBLEMA 06 ------------------------------
+
+El giro vale 1.
+Cuando se hace un giro, se recolocan 4 piezas en total.
+Cómo sabemos que la heurística tiene que ser menor que la realidad.
+Se puede contar al principio las que no estén en su sitio y dividirlas entre cuatro.
+h(x) = P / 4
+Siendo P las piezas que no estaban inicialmente en su sitio.
+
+Si se quiere un poco más de precisión se ve a qué distancia(en giros) está cada pieza.
+h(x) = Sumatorio(dist(ini(p), fin(p)) / 4
+
+
+------------------------------ PROBLEMA 10 ------------------------------
+
+El algoritmo voraz seguiría aunque fuese azul o verde con tal de encontrar lo más rápido posible
+su objetivo. 
+No es la solución óptima.
+El voraz encontraría un camino con menos pasos geométricos pero con mucho más coste.
+Por lo que el A* es mucho mejor.

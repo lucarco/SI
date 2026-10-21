@@ -1,0 +1,13 @@
+CATEGORIZACIÓN:
+    - adivinar grupo, clasificación, categoría
+    - "¿De qué raza es este gato?" (Respuestas: Persa, Siamés, Bengalí).
+    - "¿Está el pasajero satisfecho?" (Respuestas: Sí, No).
+    - Cómo se mide si es bueno: Con el porcentaje de aciertos (accuracy_score)
+    y la Matriz de Confusión. El modelo acierta o falla, no hay punto medio (o es un gato persa o no lo es).
+
+REGRESIÓN:
+    - Intenta adivinar un número exacto y continuo. No hay "cajas" u opciones cerradas,
+     la respuesta puede ser cualquier valor numérico hasta con decimales.
+    - "¿Qué salario va a cobrar este trabajador?" (Respuesta: 45.321€, 60.000€, 32.112€...).
+    - "¿Qué temperatura hará mañana?" (Respuesta: 22.5ºC).
+    - "¿A qué precio se venderá esta casa?"

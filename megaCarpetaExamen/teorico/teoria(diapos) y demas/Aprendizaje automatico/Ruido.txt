@@ -1,0 +1,6 @@
+Si hay ruido en el dataset.
+"Tenemos un dataset para clasificar clientes, pero sabemos que los sensores han fallado a veces y hay mucho ruido en la entrada, ¿qué algoritmo de clasificación usarías o evitarías?"
+
+Toleran el ruido: Redes Neuronales (Perceptrón Multicapa)
+Lo medio toleran: KNN , haciendo K lo suficientemente grande
+No lo toleran: DT y RF
